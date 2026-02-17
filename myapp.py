@@ -4,10 +4,9 @@ import plotly.data as pldata
 
 df = pldata.gapminder(return_type='pandas', datetimes=True)
 countries = df['country'].drop_duplicates()
-print(df)
 
 app = Dash(__name__)
-
+server = app.server
 # Layout
 app.layout = html.Div([
     dcc.Dropdown(
