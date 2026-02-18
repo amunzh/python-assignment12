@@ -12,6 +12,7 @@ try:
 except sqlite3.Error as e:
     print("Error:", e)
 
+
 df.plot.bar(x = 'last_name', y = 'revenue', title = 'Revenue of each Employee', color='purple' )
 plt.xlabel("Employee Last Name")
 plt.ylabel("Total Revenue")
