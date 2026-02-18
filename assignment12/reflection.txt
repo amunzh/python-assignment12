@@ -1,3 +1,4 @@
 1. With interactive visualizations, we can easily explore the data, for example, by filtering it. We can interact with the data in the graph to conduct more complex analysis. Stationary visualization provides one clear image that cannot be changed
 2. The real-time data exploration helps to visualize big datasets faster and compare more graphs. It can faster highlight key features of the data sets and lead to seeing more patterns or differences that are in the dataset. 
-3. With tools like Plotly and Dash, people, even without access to a big dataset, can still explore and contribute to the project. 
+3. With tools like Plotly and Dash, people, even without access to a big dataset, can still explore and contribute to the project.
+
